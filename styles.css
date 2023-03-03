@@ -1,0 +1,52 @@
+/* Custom styles */
+.view{
+  background-image: url('C:/xampp/htdocs/geeks/images/bg.jpg');
+}
+.navbar {
+    background-color:rgb(51, 51, 209); /* white background */
+    border-bottom: 1px solid #f8ffb8; /* light gray bottom border */
+  }
+  
+  .nav-link {
+    font-weight: bold; /* make the links bold */
+    color: #000000; /* black text color */
+    margin-right: 20px; /* add some spacing between the links */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* change the text color on hover */
+  }
+  
+  .card-deck .card {
+    margin: 0 5px; /* add some spacing between the cards */
+  }
+  
+  .card-deck .card:hover {
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2); /* add a shadow effect on hover */
+    transition: box-shadow 0.3s ease-in-out; /* add a smooth transition */
+  }
+  
+  .card-title {
+    font-size: 24px; /* increase the font size of the card title */
+    font-weight: bold; /* make the card title bold */
+    margin-bottom: 20px; /* add some spacing below the card title */
+  }
+  
+  .card-text {
+    font-size: 18px; /* increase the font size of the card text */
+    margin-bottom: 30px; /* add some spacing below the card text */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* blue button background */
+    border-color: #007bff; /* blue button border */
+    font-size: 18px; /* increase the font size of the button text */
+    font-weight: bold; /* make the button text bold */
+    padding: 10px 30px; /* add some padding to the button */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0062cc; /* change the background color on hover */
+    border-color: #0062cc; /* change the border color on hover */
+  }
+  
